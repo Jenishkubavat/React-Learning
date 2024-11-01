@@ -1,14 +1,11 @@
-
+import Hello from "./Components/Hello/Hellow";
 
 function App() {
-
-
   return (
     <>
-      
-     <h1> Hello World </h1>
+      <Hello />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
